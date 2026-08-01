@@ -44,5 +44,5 @@
 
 For license purchases, technical support, or corporate volume licensing, contact us directly:
 
- **Telegram:** [/veryesvvv](https://t.me)  
- **X (Twitter):** [x.com/MrVoeld](https://x.com)
+ **Telegram:** [t.me/veryesvvv](https://t.me/veryesvvv)  
+ **X (Twitter):** [x.com/MrVoeld](https://x.com/MrVoeld)
