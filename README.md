@@ -48,4 +48,4 @@ For license purchases, technical support, or corporate volume licensing, contact
  **X (Twitter):** [x.com/MrVoeld](https://x.com/MrVoeld)
 
 📖 **Technical Documentation:**
-[Read the full architecture and pipeline specs here](./DOCUMENTATION.md)
+[Read the full architecture and pipeline specs here](./documentation.md)
