@@ -43,5 +43,6 @@
 ## Support & Purchase Inquiries
 
 For license purchases, technical support, or corporate volume licensing, contact us directly:
- **Telegram:** [t.me/veryesvvv](https://t.me)  
+
+ **Telegram:** [/veryesvvv](https://t.me)  
  **X (Twitter):** [x.com/MrVoeld](https://x.com)
