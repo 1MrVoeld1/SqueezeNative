@@ -1,0 +1,78 @@
+===============================================================================
+                       SQUEEZENATIVE END USER LICENSE AGREEMENT (EULA)
+===============================================================================
+
+IMPORTANT — READ CAREFULLY: This End User License Agreement ("EULA") is a legal 
+agreement between you (either an individual or a single legal entity, "Licensee") 
+and the developer of SqueezeNative ("Licensor") for the software product 
+SqueezeNative, including executable files, embedded engines, and documentation 
+("Software").
+
+By installing, copying, or using the Software, you agree to be bound by the terms 
+of this EULA. If you do not agree, do not install or use the Software.
+
+-------------------------------------------------------------------------------
+1. GRANT OF LICENSE
+-------------------------------------------------------------------------------
+1.1 Evaluation License: Licensor grants Licensee a non-exclusive, non-transferable 
+    license to use the Software for evaluation purposes for a period of three (3) 
+    days from the initial launch ("Trial Period").
+
+1.2 Commercial License: Upon payment of the applicable license fee ($49 per seat 
+    or as otherwise agreed in writing), Licensor grants Licensee a non-exclusive, 
+    perpetual, non-transferable license to execute and use the Software on the 
+    specified number of workstations.
+
+-------------------------------------------------------------------------------
+2. RESTRICTIONS
+-------------------------------------------------------------------------------
+Licensee shall NOT:
+a) Reverse engineer, decompile, disassemble, or attempt to derive the source code 
+   or underlying algorithms of the Software.
+b) Modify, adapt, translate, or create derivative works based upon the Software.
+c) Sell, rent, lease, sublicense, distribute, or publicly host activation keys, 
+   license files, or unauthorized copies of the Software.
+d) Bypass, alter, or circumvent any license validation mechanism, salted hash 
+   checks, or trial restrictions embedded in the Software.
+
+-------------------------------------------------------------------------------
+3. INTELLECTUAL PROPERTY RIGHTS
+-------------------------------------------------------------------------------
+The Software is protected by copyright laws and international treaty provisions. 
+Licensor retains all title, ownership, and intellectual property rights in and to 
+the Software. All rights not expressly granted are reserved by Licensor.
+
+-------------------------------------------------------------------------------
+4. THIRD-PARTY COMPONENTS
+-------------------------------------------------------------------------------
+The Software incorporates and executes unmodified third-party open-source binaries 
+as separate, isolated processes: pngquant (GNU GPL v3), FFmpeg (GNU GPL v3 / LGPL v3 depending on build), 
+and pdfcpu (Apache 2.0). 
+
+These tools are executed strictly via the command-line interface, are not statically 
+linked, and do not form a single combined work with the Software. Full license texts 
+and links to the original source code are provided in the "licenses" directory.
+
+-------------------------------------------------------------------------------
+5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
+-------------------------------------------------------------------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A 
+PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, 
+WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN 
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-------------------------------------------------------------------------------
+6. TERMINATION
+-------------------------------------------------------------------------------
+This License shall terminate 
+automatically if the Licensee fails
+to comply with any term of this Agreement.
+Upon termination, the Licensee must
+cease all use of the Software and destroy all copies.
+
+===============================================================================
+Copyright (c) 2026 SqueezeNative. All rights reserved.
+===============================================================================
