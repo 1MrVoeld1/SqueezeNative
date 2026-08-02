@@ -18,10 +18,12 @@ of this EULA. If you do not agree, do not install or use the Software.
     license to use the Software for evaluation purposes for a period of three (3) 
     days from the initial launch ("Trial Period").
 
-1.2 Commercial License: Upon payment of the applicable license fee ($49 per seat 
-    or as otherwise agreed in writing), Licensor grants Licensee a non-exclusive, 
-    perpetual, non-transferable license to execute and use the Software on the 
-    specified number of workstations.
+1.2 Commercial License: Upon payment of the applicable annual license fee 
+    (Solo: $39/year, Team: $149/year, or Enterprise: $449/year), 
+    Licensor grants Licensee a non-exclusive, time-limited (annual), 
+    non-transferable license to execute and use the Software on the 
+    specified number of workstations for a period of one (1) year 
+    (365 days) from the date of activation.
 
 -------------------------------------------------------------------------------
 2. RESTRICTIONS
@@ -45,13 +47,16 @@ the Software. All rights not expressly granted are reserved by Licensor.
 -------------------------------------------------------------------------------
 4. THIRD-PARTY COMPONENTS
 -------------------------------------------------------------------------------
-The Software incorporates and executes unmodified third-party open-source binaries 
-as separate, isolated processes: pngquant (GNU GPL v3), FFmpeg (GNU GPL v3 / LGPL v3 depending on build), 
-and pdfcpu (Apache 2.0). 
+The Software incorporates and executes unmodified third-party open-source 
+binaries as separate, isolated processes: pngquant (GNU GPL v3), FFmpeg 
+(GNU GPL v3 / LGPL v3), and pdfcpu (Apache 2.0). 
 
-These tools are executed strictly via the command-line interface, are not statically 
-linked, and do not form a single combined work with the Software. Full license texts 
-and links to the original source code are provided in the "licenses" directory.
+These open-source tools are executed strictly via the standard command-line 
+interface, are not statically or dynamically linked into the SqueezeNative 
+core, and do not form a combined or derivative work. SqueezeNative remains 
+a separate, independent commercial application. Full open-source license 
+texts and links to the original source code are provided in the "licenses" 
+directory in strict compliance with their respective terms.
 
 -------------------------------------------------------------------------------
 5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY
