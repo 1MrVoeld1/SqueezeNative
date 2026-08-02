@@ -139,7 +139,7 @@ optimize "<input>" "<output>"
 
 # 3. Architecture & Threading Model
 
-SqueezeNative separates interface rendering from compression workloads to maintain stable performance and prevent application freezing.
+SqueezeNative separates interface rendering from compression workloads to maintain stable performance, prevent application freezing, and enable simultaneous high-speed processing.
 
 ---
 
@@ -151,61 +151,51 @@ Dear ImGui + DirectX
 ```
 
 Responsibilities:
-
-* User interface rendering.
-* Drag-and-drop handling.
-* User input processing.
-* Displaying current application status.
+* User interface rendering at stable frame rates.
+* Drag-and-drop handling for multiple files and entire folders.
+* User input processing and dynamic list rendering.
+* Displaying real-time progress bars, logs, and application status.
 
 ---
 
-## Phase 2: Worker Threads
-
-Compression tasks are executed separately from the UI thread.
-
+## Phase 2: Asynchronous Worker Threads & Batch Processing
+Compression tasks are completely isolated from the UI thread and execute in parallel.
 Responsibilities:
-
-* File validation.
-* Format detection.
-* Compression pipeline selection.
-* Backend execution.
-* Progress updates.
+* Batch queue management: accepting multiple file pathways simultaneously.
+* File validation and automatic format detection.
+* Parallel pipeline execution: spawning multiple isolated worker threads based on the hardware capacity to maximize C++ performance without throttling the system.
+* Direct real-time progress updates sent back to the main Dear ImGui table.
 
 ---
 
 ## Phase 3: Backend Process Management
-
 SqueezeNative manages embedded backend processes internally.
-
 Main operations:
-
-* Extract required backend components when needed.
-* Launch processing engines in isolated processes.
-* Monitor execution status.
-* Capture progress information.
-* Return results back to the user interface.
+* Extract required backend components safely when needed.
+* Launch processing engines (FFmpeg, pngquant, pdfcpu) in isolated, sandboxed background processes.
+* Monitor thread execution status and catch exit codes.
+* Safely manage output streams to prevent any data loss, saving compressed files with a `_compressed` suffix
 
 ---
 
-# 4. Licensing & Security Module
+# 4. Licensing, Subscriptions & Security Module
 
-SqueezeNative includes a local offline licensing system designed for commercial distribution.
+SqueezeNative includes a secure local licensing system designed for modern agile teams and enterprise commercial distribution.
 
 ---
 
 ## 4.1 Trial Period
-
-* The first launch starts a 3-day evaluation period.
-* Trial status is stored locally.
-* After expiration, compression features require activation with a valid license key.
+* The first launch initiates a fully functional 3-day evaluation period.
+* Full batch processing and maximum native speed are available during the trial.
+* After expiration, compression features are locked until activation with a valid license key.
 
 ---
 
-## 4.2 License Activation
+## 4.2 Annual License Activation
+* License keys are issued for specific commercial packages: **SOLO** (1 PC), **TEAM** (Up to 5 PCs), or **ENTERPRISE** (Up to 20 PCs) on an **annual subscription basis ($39, $149, or $449 / year)**.
+* License validation is verified safely through an internal time-locking mechanism.
+* The application runs 100% offline, guaranteeing complete enterprise data privacy and absolute compliance with strict corporate NDAs.
 
-* License keys are validated locally using an offline verification mechanism.
-* Activation does not require a permanent internet connection.
-* A successful activation unlocks the licensed version of the software.
 
 ---
 
